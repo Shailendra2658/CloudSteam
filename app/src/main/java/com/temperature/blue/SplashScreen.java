@@ -10,6 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import static android.content.ContentValues.TAG;
@@ -32,7 +33,7 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.splash);
         // HERE WE ARE TAKING THE REFERENCE OF OUR IMAGE
         // SO THAT WE CAN PERFORM ANIMATION USING THAT IMAGE
-        TextView backgroundImage= (TextView) findViewById(R.id.textView3);
+        ImageView backgroundImage= (ImageView) findViewById(R.id.imageLogo);
         Animation slideAnimation = AnimationUtils.loadAnimation(this, R.anim.side_slide);
         backgroundImage.startAnimation(slideAnimation);
         Thread timerThread = new Thread(){

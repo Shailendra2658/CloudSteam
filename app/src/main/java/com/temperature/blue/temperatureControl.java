@@ -21,6 +21,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.imageview.ShapeableImageView;
 import com.temperature.blue.databinding.ActivityLedControlBinding;
 
 import java.io.IOException;
@@ -61,6 +62,7 @@ public class temperatureControl extends Activity {
     int counter;
     volatile boolean stopWorker;
     ActivityLedControlBinding binding;
+    ShapeableImageView imageLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +81,7 @@ public class temperatureControl extends Activity {
         Discnt = (Button) findViewById(R.id.dis_btn);
         Abt = (Button) findViewById(R.id.abt_btn);
         statusMsg = (TextView) findViewById(R.id.textView2);
+        imageLogout = (ShapeableImageView) findViewById(R.id.imageLogout);
 
         new ConnectBT().execute(); //Call the class to connect
 
@@ -107,6 +110,14 @@ public class temperatureControl extends Activity {
             @Override
             public void onClick(View v) {
                 Disconnect(); //close connection
+            }
+        });
+
+        imageLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Disconnect(); //close connection
+                finishAffinity();
             }
         });
 
