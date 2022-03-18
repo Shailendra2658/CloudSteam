@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#7c4dff</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#5690CC</color>
+    <color name="light_blue">#DBEBEF</color>
+    <color name="red">#D98383</color>
+    <color name="disabled_color">#F8F8F8</color>
+    <color name="stroke_color">#DBDBDB</color>
+    <color name="circleIndicatorSecondaryColor">#DBEBEF</color>
+    <color name="circleIndicatorPrimaryColor">#5690CC</color>
+    <color name="circleIndicatorStokeyColor">#4A7CAF</color>
+    <color name="colorPrimaryWalletItem">#444444</color>
+    <color name="colorGrey">#888888</color>
+    <color name="outline_grey">#E7E7E7</color>
+    <color name="shadow_grey">#00000029</color>
+    <color name="color_dialog_back">#98000000</color>
+    <color name="note_color">#F4F4F4</color>
+    <color name="cardNumbItem">#999999</color>
+    <color name="inactive_red">#CE6D70</color>
+    <color name="active_green">#22b07d</color>
+    <color name="color_full_kyc">#97C026</color>
+    <color name="color_no_kyc">#CE6D70</color>
+    <color name="color_min_kyc">#F88425</color>
+    <color name="disabled_red">#D34C4C</color>
+    <color name="color_request_pending">#F8B827</color>
+    <color name="color_request_declined">#D34C4C</color>
+    <color name="color_request_approved">#97C03D</color>
+    <color name="color_pending">#F8B827</color>
+    <color name="purple_v2">#673dda</color>
+    <color name="text_color">#303030</color>
+    <color name="semi_white">#99FFFFFF</color>
+    <color name="color_active_auto_topup">#22b07d</color>
+    <color name="color_inactive_auto_topup">#ee2830</color>
+    <color name="textColoSecondary">#333333</color>
+    <color name="colorInlineError">#dc2c39</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
