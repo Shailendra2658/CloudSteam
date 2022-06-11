@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.temperature.blue">
+    package="com.temperature.red">
 
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -12,7 +12,7 @@
         android:screenOrientation="landscape"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name="com.temperature.red.SplashScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,14 +21,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.temperature.blue.DeviceList"
+            android:name="com.temperature.red.DeviceList"
             android:screenOrientation="landscape"
             android:label="@string/app_name">
 
         </activity>
 
         <activity
-            android:name="com.temperature.blue.temperatureControl"
+            android:name="com.temperature.red.temperatureControl"
             android:screenOrientation="landscape"
             android:label="LED Control">
 

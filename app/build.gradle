@@ -5,11 +5,11 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.temperature.blue"
+        applicationId "com.temperature.red"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 16
-        versionName "7.1"
+        versionCode 17
+        versionName "7.2"
     }
     buildFeatures {
 
