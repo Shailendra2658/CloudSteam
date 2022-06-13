@@ -20,13 +20,7 @@
         android:text="Paired Devices"
         android:textColor="#ffffff" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:src="@mipmap/ic_launcher" />
+
 
     <ListView
         android:id="@+id/listView"
@@ -48,4 +42,11 @@
         android:text="Paired Devices"
         android:textColor="#000000"
         android:textIsSelectable="false" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
 </RelativeLayout>

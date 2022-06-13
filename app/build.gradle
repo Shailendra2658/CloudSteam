@@ -8,8 +8,8 @@ android {
         applicationId "com.temperature.red"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 18
-        versionName "7.3"
+        versionCode 20
+        versionName "7.5"
     }
     buildFeatures {
 
